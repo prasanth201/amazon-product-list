@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+  .product-cards {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+
+  }
+  img{
+    cursor: pointer ;
+    width: 150px;
+    display: block;
+    margin: 2px;
+  }
+  p{
+    cursor: pointer ;
+    font-size: larger;
+    font-weight: 800;
+  }
+  span{
+    cursor: pointer ;
+    text-overflow:ellipsis;
+    font-size: medium;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  .product {
+    /* height:200px; */
+    width: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px 9px;
+  }
+
+  span:hover{
+    color: blueviolet;
+  }
+  
